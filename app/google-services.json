@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "69854283390",
+    "firebase_url": "https://elucidat-7e04e.firebaseio.com",
+    "project_id": "elucidat-7e04e",
+    "storage_bucket": "elucidat-7e04e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69854283390:android:4dfae09353893bef",
+        "android_client_info": {
+          "package_name": "com.example.andrew.elucidat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69854283390-3pcssrenf0m1n6o96lrq9g05np2h41ae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.andrew.elucidat",
+            "certificate_hash": "bfcaaa0e34a7466728f764cd86b3150f078df296"
+          }
+        },
+        {
+          "client_id": "69854283390-on14i962r77ksn3l56n6q28fe0fl8jg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB76WkZYHdLdYZzUYQdtdelZ7xOBu1jxAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69854283390-on14i962r77ksn3l56n6q28fe0fl8jg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

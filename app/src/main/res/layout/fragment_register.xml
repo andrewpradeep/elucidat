@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.andrew.elucidat.fragments.registerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<android.support.v7.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="30dp"
+    android:id="@+id/name_card"
+    >
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/tutor_name"
+        android:hint="Name"/>
+
+</android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/state_card"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:id="@+id/tutor_state"
+            android:hint="State"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/native_card"
+        android:layout_marginTop="20dp"
+        >
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:id="@+id/tutor_nativelang"
+            android:spinnerMode="dropdown"
+            android:entries="@array/native_lang"></android.support.v7.widget.AppCompatSpinner>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/phone_card"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:id="@+id/tutor_phno"
+            android:hint="Phno"
+            />
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="40dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:background="@color/buttonprimary"
+            android:text="OK"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:id="@+id/reg_ok"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:id="@+id/reg_cancel"
+            android:background="@color/buttonprimary"
+            android:text="Cancel"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:clickable="true"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>
